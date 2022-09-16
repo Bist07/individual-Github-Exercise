@@ -1,7 +1,7 @@
 package com.example;
 
 import java.util.Scanner;
-
+//new comment
 public class getnumber {
 
     public static void main(String[] args) {
