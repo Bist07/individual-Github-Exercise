@@ -1,7 +1,7 @@
 package com.example;
 
 import java.util.Scanner;
-//new comment for recording
+//new new comment for recording 11111
 public class getnumber {
 
     public static void main(String[] args) {
