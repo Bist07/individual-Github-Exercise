@@ -26,5 +26,5 @@ public class getInt {
             System.out.println(num + " is not a prime number.");
     
     }
-          
+
 }
