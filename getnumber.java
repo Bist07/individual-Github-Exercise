@@ -3,28 +3,32 @@ import java.util.Scanner;
 public class getnumber {
 
     public static void main(String[] args) {
-
+        //create a new scanner object
         Scanner reader = new Scanner(System.in);
 
+        //prompt user for a number
         System.out.print("Enter a number: ");
+        //store the number in a variable
         int num = reader.nextInt();
 
+        //close scanner
         reader.close();
+
         if(num % 2 == 0)
             System.out.println(num + " is even");
         else
             System.out.println(num + " is odd");
       
-        boolean flag = false;
+        boolean prime = false;
         for (int i = 2; i <= num / 2; ++i) {
          
              if (num % i == 0) {
-                flag = true;
+                prime = true;
                 break;
             }
         }
           
-        if (!flag)
+        if (!prime)
             System.out.println(num + " is a prime number.");
         else
             System.out.println(num + " is not a prime number.");
