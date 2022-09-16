@@ -10,10 +10,6 @@ public class getInt {
         int num = reader.nextInt();
 
         System.out.println(num + " is odd");
-<<<<<<< Updated upstream
-    
-=======
-
       
     boolean flag = false;
     for (int i = 2; i <= num / 2; ++i) {
@@ -31,5 +27,4 @@ public class getInt {
     
     }
           
->>>>>>> Stashed changes
 }
